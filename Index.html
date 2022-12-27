@@ -1,0 +1,16 @@
+<html>
+<div>
+Hi
+</div>
+</html>
+<script>
+// Parse the query string of the current URL
+const params = new URLSearchParams(window.location.search);
+
+// Get the value of the "data" parameter
+const x = params.get('data');
+
+// Output the value of x
+document.body.innerHTML = x;
+
+</script>
